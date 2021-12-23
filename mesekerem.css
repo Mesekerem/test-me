@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+body {
+    width: auto;
+    background-image: url(img/couple_in_love_2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden !important;
+    font-family: sans-serif;
+}
+section {
+height: 100vh;
+}
+h1 {
+    color: #f0e6e8;
+    overflow: hidden;
+    margin-top: 1.4em;
+    margin-left: 1em;
+    font-family: 'Great Vibes', sans-serif;
+}
+.container-fluid {
+    width: 25em;
+    height: 30em;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    background-color: rgba(109, 0, 25, 0.521);
+    margin-top: 2em !important;
+    border-radius: 1em;
+}
+.card-title {
+    color: whitesmoke;
+    font-size: 2em;
+}
+span {
+    color: #f0e6e8;
+    
+    border: 1px solid whitesmoke;
+    border-radius: 50em;
+    width: 19em !important;
+    height: 2em;
+    margin: auto;
+    padding-left: 1em;
+}
+a {
+    color: #f0e6e8;
+    text-decoration: none !important;
+    font-size: 1.2em;
+    border: 1px solid #f0e6e8;
+    border-top-left-radius: 0;
+    border-top-right-radius: 50em;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 50em;
+    width: 10em;
+    height: 2.4em !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+a:hover {
+    color: #6d0019 !important;
+    background: #f0e6e8;
+    transition: all 0.5s;
+    font-weight: 500;
+}
+/* media query ************************/
+@media only screen and (max-width: 480px) {
+    h1 {
+        color: #f0e6e8;
+        overflow: hidden;
+        margin-top: 0.8em !important;
+        font-size: 1.6em;
+        display: flex;
+        justify-content: center !important;
+    }
+    .container-fluid {
+        width: 12em !important;
+        height: 20em !important;
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        background-color: rgba(109, 0, 25, 0.521);
+        margin-top: 1em !important;
+        border-radius: 1em;
+    }
+    .card-title {
+        color: whitesmoke;
+        font-size: 1em;
+        margin-top: 1em !important;
+    }
+    span {
+        color: #f0e6e8;
+        font-size: 0.9em !important;
+        border: 1px solid whitesmoke;
+        border-radius: 5em;
+        width: 10em !important;
+        height: 1.8em !important;
+        /* margin: auto; */
+        padding-left: 1em;
+    }
+    a {
+        color: #f0e6e8;
+        text-decoration: none !important;
+        font-size: 0.8em !important;
+        border: 1px solid white;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 1em;
+        width: 5em;
+        height: 1.2em !important;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        color: #f0e6e8;
+        overflow: hidden;
+        margin-top: 0.4em;
+        margin-bottom: 2em;
+        font-size: 2em;
+        display: flex;
+        /* justify-content: center !important; */
+    }
+    .container-fluid {
+        width: 20em;
+        height: 26em;
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        background-color: rgba(109, 0, 25, 0.521);
+        display: flex;
+        margin-top: 2em !important;
+        border-radius: 1em;
+    }
+    .card-title {
+        color: whitesmoke;
+        font-size: 1.8em;
+        margin-top: 2em;
+    }
+    span {
+        color: #f0e6e8;
+        border: 1px solid whitesmoke;
+        border-radius: 50em;
+        width: 19em !important;
+        height: 1.8em;
+        margin: auto;
+        padding-left: 1em;
+    }
+    a {
+        color: #f0e6e8;
+        text-decoration: none !important;
+        font-size: 1.4em;
+        border: 1px solid white;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 1em;
+        width: 8em;
+        height: 1.8em !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    h1 {
+        color: #f0e6e8;
+        overflow: hidden;
+        margin-top: 0.4em;
+        margin-bottom: 2em;
+        font-size: 2em;
+        display: flex;
+        /* justify-content: center !important; */
+    }
+    .container-fluid {
+        width: 24em;
+        height: 30em;
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+        background-color: rgba(109, 0, 25, 0.521);
+        display: flex;
+        margin-top: 15% !important;
+        border-radius: 1em;
+    }
+    .card-title {
+        color: whitesmoke;
+        font-size: 2.2em;
+        margin-top: 2em;
+    }
+    span {
+        color: #f0e6e8;
+        font-size: 1.6em;
+        border: 1px solid whitesmoke;
+        border-radius: 50em;
+        width: 19em !important;
+        height: 1.8em;
+        margin: auto;
+        padding-left: 1em;
+    }
+    a {
+        color: #f0e6e8;
+        text-decoration: none !important;
+        font-size: 1.8em;
+        border: 1px solid white;
+        border-top-left-radius: 0;
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 1em;
+        width: 8em;
+        height: 1.8em !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
